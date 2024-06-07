@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-05T07:44:44 IST" name="Suite" finished-at="2024-06-05T07:45:09 IST" duration-ms="24953">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.LoginErrorValidation()[pri:0, instance:FrameWorks.MavenFrameworkDesign.ErrorValidationsTest@4879dfad]" name="LoginErrorValidation" class="FrameWorks.MavenFrameworkDesign.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrderTest(java.util.HashMap)[pri:0, instance:FrameWorks.MavenFrameworkDesign.SubmitOrderTest@16ce702d]" name="submitOrderTest" class="FrameWorks.MavenFrameworkDesign.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-06-05T07:44:44 IST" name="Error Validation" finished-at="2024-06-05T07:44:54 IST" duration-ms="9647">
+      <class name="FrameWorks.MavenFrameworkDesign.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:FrameWorks.MavenFrameworkDesign.ErrorValidationsTest@4879dfad]" started-at="2024-06-05T07:44:44 IST" name="launchApplication" finished-at="2024-06-05T07:44:51 IST" duration-ms="6879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:FrameWorks.MavenFrameworkDesign.ErrorValidationsTest@4879dfad]" started-at="2024-06-05T07:44:51 IST" name="LoginErrorValidation" finished-at="2024-06-05T07:44:52 IST" duration-ms="627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FrameWorks.MavenFrameworkDesign.ErrorValidationsTest@4879dfad]" started-at="2024-06-05T07:44:52 IST" name="tearDown" finished-at="2024-06-05T07:44:54 IST" duration-ms="2091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FrameWorks.MavenFrameworkDesign.ErrorValidationsTest -->
+    </test> <!-- Error Validation -->
+    <test started-at="2024-06-05T07:44:44 IST" name="Submit Order Test" finished-at="2024-06-05T07:45:09 IST" duration-ms="24953">
+      <class name="FrameWorks.MavenFrameworkDesign.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:FrameWorks.MavenFrameworkDesign.SubmitOrderTest@16ce702d]" started-at="2024-06-05T07:44:44 IST" name="launchApplication" finished-at="2024-06-05T07:44:52 IST" duration-ms="7962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrderTest(java.util.HashMap)[pri:0, instance:FrameWorks.MavenFrameworkDesign.SubmitOrderTest@16ce702d]" started-at="2024-06-05T07:44:52 IST" name="submitOrderTest" data-provider="getData" finished-at="2024-06-05T07:44:55 IST" duration-ms="3082" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Thisistest@1, email=rahulshettytest1@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FrameWorks.MavenFrameworkDesign.SubmitOrderTest@16ce702d]" started-at="2024-06-05T07:44:55 IST" name="tearDown" finished-at="2024-06-05T07:44:58 IST" duration-ms="2158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:FrameWorks.MavenFrameworkDesign.SubmitOrderTest@16ce702d]" started-at="2024-06-05T07:44:58 IST" name="launchApplication" finished-at="2024-06-05T07:45:00 IST" duration-ms="2469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrderTest(java.util.HashMap)[pri:0, instance:FrameWorks.MavenFrameworkDesign.SubmitOrderTest@16ce702d]" started-at="2024-06-05T07:45:00 IST" name="submitOrderTest" data-provider="getData" finished-at="2024-06-05T07:45:03 IST" duration-ms="2817" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, email=anshika@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FrameWorks.MavenFrameworkDesign.SubmitOrderTest@16ce702d]" started-at="2024-06-05T07:45:03 IST" name="tearDown" finished-at="2024-06-05T07:45:05 IST" duration-ms="2126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:FrameWorks.MavenFrameworkDesign.SubmitOrderTest@16ce702d]" started-at="2024-06-05T07:45:05 IST" name="launchApplication" finished-at="2024-06-05T07:45:06 IST" duration-ms="882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ordeHistoryTest()[pri:0, instance:FrameWorks.MavenFrameworkDesign.SubmitOrderTest@16ce702d]" started-at="2024-06-05T07:45:06 IST" name="ordeHistoryTest" finished-at="2024-06-05T07:45:07 IST" depends-on-methods="FrameWorks.MavenFrameworkDesign.SubmitOrderTest.submitOrderTest" duration-ms="1108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ordeHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FrameWorks.MavenFrameworkDesign.SubmitOrderTest@16ce702d]" started-at="2024-06-05T07:45:07 IST" name="tearDown" finished-at="2024-06-05T07:45:09 IST" duration-ms="2113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FrameWorks.MavenFrameworkDesign.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
